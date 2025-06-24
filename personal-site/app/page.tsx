@@ -12,6 +12,7 @@ export default function Home() {
       <Navbar />
       <Container>
         <ContactSection id="top-contact" />
+        <AboutSection />
         <ProjectsSection id="projects"/>
         <ExperienceSection id="experience"/>
         <EducationSection id="education"/>
