@@ -5,18 +5,21 @@ import ProjectsSection from "@/components/sections/projects";
 import ExperienceSection from "@/components/sections/experience";
 import EducationSection from "@/components/sections/education";
 import ContactSection from "@/components/sections/contact";
+import ContactCondensed from "@/components/sections/contact-condensed";
+import ResumeSection from "@/components/sections/resume";
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Container>
-        <ContactSection id="top-contact" />
+        <ContactSection id="contact" />
         <AboutSection />
         <ProjectsSection id="projects"/>
         <ExperienceSection id="experience"/>
         <EducationSection id="education"/>
-        <ContactSection id="contact" />
+        <ResumeSection />
+        <ContactCondensed />
       </Container>
     </>
   );
