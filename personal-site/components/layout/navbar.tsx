@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa"
+import { FaFileAlt } from "react-icons/fa"
 import { HiOutlineBriefcase, HiOutlineAcademicCap, HiOutlineFolderOpen, HiOutlineMail } from "react-icons/hi"
 
 const sections = [
